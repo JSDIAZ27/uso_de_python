@@ -110,3 +110,23 @@ print(tupla_1.count("b"))
 
 print(tupla_1.index("b"))
 
+'''
+uso de listas []
+
+'''
+mi_lista=[9,5,8,15, True]
+print(mi_lista)
+print(len(mi_lista))#funcion de python len
+print(mi_lista.append(False))#aplicacion de metodo a la lista (buscar que es un metooo)
+print(mi_lista)
+print(sum(mi_lista))#funcion de python sum
+
+'''
+usode diccionarios
+{clave:valor} 
+'''
+estudiantes={"andres":25, "jose":22, "diana":26}
+print(estudiantes.keys())
+print(estudiantes.values())
+print(estudiantes.pop("diana")) #para quitar a diana en especifico
+print(estudiantes)
